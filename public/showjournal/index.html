@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/showjournal/app.css">
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"
+    rel="stylesheet"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- MDB -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+    rel="stylesheet"
+  />
+  <!-- Star Rating -->
+  <link href="
+  https://cdn.jsdelivr.net/npm/star-rating-svg@3.5.0/src/css/star-rating-svg.min.css
+  " rel="stylesheet">
+  <!-- DatePicker -->
+  <link href="
+  https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css
+  " rel="stylesheet">
+
+  <title>Success Journal</title>
+  <meta name="robots" content="noindex,nofollow">
+</head>
+  <body style="background-color: #dadada;">
+
+      <!-- Content -->
+      <div class="container-fluid main_container">
+        <div class="row justify-content-center">
+          <div class="card w-75">
+            <div class="card-body">
+
+              
+
+
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- Container wrapper -->
+                <div class="container-fluid">
+                  <!-- Toggle button -->
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarLeftAlignExample"
+                    aria-controls="navbarLeftAlignExample"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+              
+                  <!-- Collapsible wrapper -->
+                  <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active nav-link1" aria-current="page" href="#">Neues Journal erstellen</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-link2" href="#">Vorhandene Journale anzeigen</a>
+                      </li>
+                    </ul>
+                    <!-- Left links -->
+                  </div>
+                  <!-- Collapsible wrapper -->
+                </div>
+                <!-- Container wrapper -->
+              </nav>
+              <br/>
+              <span>Wähle ein Datum:</span>
+              <input data-toggle="datepicker">
+              <br/><br/>
+
+
+              <div class="row">
+                <div class="col-md-4"><h3 class="card-title">Success Journal</h3></div>
+                <div class="col-md-4 ms-auto">Wie fühle ich mich heute?<div class="star-rating"></div></div>
+              </div>
+              <br/>
+              <figure class="note note-success p-4">
+                <blockquote class="blockquote">
+                  <p class="pb-2 blockquote-text">
+
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 blockquote-title">
+
+                </figcaption>
+              </figure>
+              <br/><br/>
+
+
+
+
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #ec2a2a;"><i class="fa-solid fa-thumbs-up"></i>&nbsp; An diesem Ziel arbeite ich heute</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="goal" rows="4" disabled></textarea>
+                    <label class="form-label" for="goal">An diesem Ziel arbeite ich heute</label>
+                  </div>
+                </div>
+              </div>
+              <br/><br/>
+
+
+
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #f7b271;"><i class="fa-solid fa-fire-flame-curved"></i>&nbsp; Sinn & Motivation</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="sense1" rows="4" disabled></textarea>
+                    <label class="form-label" for="sense1">Warum will ich dieses Ziel erreichen?</label>
+                  </div>
+                </div>
+              </div>
+              <br/><br/>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #f7b271;"><i class="fa-solid fa-rocket"></i>&nbsp; Power</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  Was mache ich heute, um diesem Ziel näher zu kommen?
+                </div>
+                <div class="col-md-9">
+                  <div class="form-outline">
+                    <input type="text" id="power1" class="form-control active" disabled />
+                    <label class="form-label" for="power1">Grund 1</label>
+                  </div>
+                  <br/>
+                  <div class="form-outline">
+                    <input type="text" id="power2" class="form-control active" disabled />
+                    <label class="form-label" for="power2">Grund 2</label>
+                  </div>
+                  <br/>
+                  <div class="form-outline">
+                    <input type="text" id="power3" class="form-control active" disabled />
+                    <label class="form-label" for="power3">Grund 3</label>
+                  </div>
+                </div>
+              </div>
+              <br/><br/>
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #f7b271;"><i class="fa-solid fa-bullseye"></i>&nbsp; Fokus</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="focus1" rows="4" disabled></textarea>
+                    <label class="form-label" for="focus1">Welche meiner Maximen will ich heute bewusst erleben?</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="focus2" rows="4" disabled></textarea>
+                    <label class="form-label" for="focus2">Was ist heute wichtig?</label>
+                  </div>
+                </div>
+              </div>
+
+              <br/><br/>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h4><span class="badge" style="background-color: #ea619f"><i class="fa-solid fa-eye"></i>&nbsp; Achtsamkeit</span></h4>
+                </div>
+                <div class="col-md-6">
+                  <h4><span class="badge" style="background-color: #ea619f;"><i class="fa-solid fa-circle-plus"></i>&nbsp; Innere Stärke</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="mindfulness1" rows="4" disabled></textarea>
+                    <label class="form-label" for="mindfulness1">Wofür bin ich dankbar?</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="innerstrength1" rows="4" disabled></textarea>
+                    <label class="form-label" for="innerstrength1">Was macht mich heute erfolgreich?</label>
+                  </div>
+                </div>
+              </div>
+
+
+              <br/><br/>
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #ea619f"><i class="fa-solid fa-crown"></i>&nbsp; Mindset</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="mindset1" rows="4" disabled></textarea>
+                    <label class="form-label" for="mindset1">Der Tag wird heute wundervoll, weil...</label>
+                  </div>
+                </div>
+              </div>
+              <br/><br/>
+
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #ea619f"><i class="fa-solid fa-gift"></i>&nbsp; Gutes tun</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="good1" rows="4" disabled></textarea>
+                    <label class="form-label" for="good1">Was kann ich heute für mich tun?</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="good2" rows="4" disabled></textarea>
+                    <label class="form-label" for="good2">Was kann ich heute für andere tun?</label>
+                  </div>
+                </div>
+              </div>
+
+              <br/><br/>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #ea619f"><i class="fa-solid fa-sun"></i>&nbsp; Erfolge, Erfreuliches & Chancen</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="success1" rows="4" disabled></textarea>
+                    <label class="form-label" for="success1">Erfolge, Erfreuliches & Chancen</label>
+                  </div>
+                </div>
+              </div>
+              <br/><br/>
+
+
+              <div class="row">
+                <div class="col-md-12">
+                  <h4><span class="badge" style="background-color: #34809b"><i class="fa-solid fa-compass"></i>&nbsp; Reflektion</span></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="reflection1" rows="4" disabled></textarea>
+                    <label class="form-label" for="reflection1">Was hat mir Energie geraubt oder nicht gut getan?</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="reflection2" rows="4" disabled></textarea>
+                    <label class="form-label" for="reflection2">Wie kann ich das verbessern?</label>
+                  </div>
+                </div>
+              </div>
+              <br/>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="reflection3" rows="4" disabled></textarea>
+                    <label class="form-label" for="reflection3">Welche limitierenden Glaubenssätze sind mir aufgefallen?</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-outline">
+                    <textarea class="form-control active" id="reflection4" rows="4" disabled></textarea>
+                    <label class="form-label" for="reflection4">Durch welche positiven Glaubenssätze will ich diese ersetzen?</label>
+                  </div>
+                </div>
+              </div>
+
+              <br/><br/>
+            </div>
+          </div>
+        </div>
+        <br/><br/><br/><br/>
+      </div>
+      
+
+    <!-- JS Scripte -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/star-rating-svg@3.5.0/dist/jquery.star-rating-svg.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script type="text/javascript" src="public/showjournal/helper.js"></script>  
+
+  </body>
+</html>
