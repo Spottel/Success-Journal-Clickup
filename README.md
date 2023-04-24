@@ -54,9 +54,9 @@ cd repo
 npm install
 ```
 
-5. set .env variables
+4. set .env variables
 
-6. run the app
+5. run the app
 
 ```
 npm run start
