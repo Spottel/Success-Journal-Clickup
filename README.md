@@ -1,6 +1,6 @@
 <div align='center'>
     <h1><b>Success Journal - Clickup</b></h1>
-    <img src='https://raw.githubusercontent.com/Spottel/Diagonal-Service-Connector/master/public/readme/logo.png' width='250' height='250' />
+    <img src='https://raw.githubusercontent.com/Spottel/Success-Journal-Clickup/master/public/readme/logo.png' width='250' height='250' />
     <p>The Success Journal ClickUp helps you to create a daily success journal. It save the data directly in ClickUp over the API.</p>
 
 
@@ -8,8 +8,8 @@
 ![Node.js](https://badgen.net/badge/Node.js/v18.15.0/green?)
 ![Docker](https://badgen.net/badge/Docker/23.0.3/cyan?)
 
-![Github](https://badgen.net/github/release/Spottel/Diagonal-Service-Connector)
-![Github](https://badgen.net/github/last-commit/Spottel/Diagonal-Service-Connector)
+![Github](https://badgen.net/github/release/Spottel/Success-Journal-Clickup)
+![Github](https://badgen.net/github/last-commit/Spottel/Success-Journal-Clickup)
 
 
 </div>
@@ -39,7 +39,7 @@ localhost:7125/showjournal?code=securecode or domain.com/showjournal?code=secure
 1. clone the repo
 
 ```
-git clone https://github.com/spottel/diagonalserviceconnector
+git clone https://github.com/Spottel/Success-Journal-Clickup
 ```
 
 2. cd into cloned repo
@@ -70,7 +70,7 @@ npm run start
 1. run the app
 
 ```
-docker run -d --name=successjournalclickup -p 17400:7125 -v /path/to/docker.sock:/var/run/docker.sock -e SECURE_CODE='securecode' -e CLICK_UP_TOKEN='token' -e CLICK_UP_LIST_ID='list_id' --restart unless-stopped spottel/diagonalservice-connector:latest
+docker run -d --name=successjournalclickup -p 17400:7125 -v /path/to/docker.sock:/var/run/docker.sock -e SECURE_CODE='securecode' -e CLICK_UP_TOKEN='token' -e CLICK_UP_LIST_ID='list_id' --restart unless-stopped spottel/success-journal-clickup:latest
 ```
 
 <br />
@@ -81,12 +81,12 @@ docker run -d --name=successjournalclickup -p 17400:7125 -v /path/to/docker.sock
 
 Main Page
 <br/>
-<img src='https://raw.githubusercontent.com/Spottel/Diagonal-Service-Connector/master/public/readme/readme1.png' height='250' />
+<img src='https://raw.githubusercontent.com/Spottel/Success-Journal-Clickup/master/public/readme/readme1.png' height='250' />
 
 <br />
 View Journal Page
 <br/>
-<img src='https://raw.githubusercontent.com/Spottel/Diagonal-Service-Connector/master/public/readme/readme2.png' height='250' />
+<img src='https://raw.githubusercontent.com/Spottel/Success-Journal-Clickup/master/public/readme/readme2.png' height='250' />
 
 <br />
 

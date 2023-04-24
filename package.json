@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build:prod:docker:push": "sudo docker build -t spottel/diagonalservice-connector:latest . && sudo docker push spottel/diagonalservice-connector:latest",
-    "pushDockerReadme": "sudo docker run --rm -v '/data/visualcode_data/data/workspace/Data/Success-Journal-Clickuo/README.md':'/data/README.md' -e DOCKERHUB_USERNAME='user' -e DOCKERHUB_PASSWORD='password' -e DOCKERHUB_REPO_PREFIX=spottel -e DOCKERHUB_REPO_NAME=diagonalservice-connector sheogorath/readme-to-dockerhub:latest",
+    "build:prod:docker:push": "sudo docker build -t spottel/success-journal-clickup:latest . && sudo docker push spottel/success-journal-clickup:latest",
+    "pushDockerReadme": "sudo docker run --rm -v '/data/visualcode_data/data/workspace/Data/Success-Journal-Clickuo/README.md':'/data/README.md' -e DOCKERHUB_USERNAME='user' -e DOCKERHUB_PASSWORD='password' -e DOCKERHUB_REPO_PREFIX=spottel -e DOCKERHUB_REPO_NAME=success-journal-clickup sheogorath/readme-to-dockerhub:latest",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
