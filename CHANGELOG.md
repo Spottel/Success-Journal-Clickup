@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.0.1...v1.0.2) (2023-04-25)
+
+
+### Bug Fixes
+
+* :bug: Reload page after add new journal ([43ab95b](https://github.com/Spottel/Success-Journal-Clickup/commit/43ab95b3a3cab005dbe82d8ccc0a3eb4b93520af))
+
 ## [1.0.1](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.0.0...v1.0.1) (2023-04-25)
 
 
