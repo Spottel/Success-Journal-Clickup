@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.1.0...v1.1.1) (2023-04-25)
+
+
+### Bug Fixes
+
+* :bug: Bugfixes ([7e1f7e3](https://github.com/Spottel/Success-Journal-Clickup/commit/7e1f7e334ff4028fc7d2d10f057a7a459f0a540b))
+
 ## [1.1.0](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.0.2...v1.1.0) (2023-04-25)
 
 
