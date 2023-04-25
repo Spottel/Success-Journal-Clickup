@@ -1,6 +1,6 @@
 {
   "name": "successjournalclickup",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "release:major": "standard-version --release-as major",
-    "release-firstrelease": "standard-version --first-release"
+    "release-firstrelease": "standard-version --first-release",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "Frank Schünemann",
@@ -30,6 +31,11 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
-    "release-please": "^15.10.4"
+    "release-please": "^15.10.4",
+    "semantic-release": "^21.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spottel/Success-Journal-Clickup.git"
   }
 }
