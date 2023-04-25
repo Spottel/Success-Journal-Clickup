@@ -120,6 +120,9 @@ Array.prototype.slice.call(forms).forEach((form) => {
                     form.classList.remove('was-validated');
                     form.reset();
                     $(".star-rating").starRating('setRating', 0);
+
+                    window.location.reload();
+
                 }else{
                     var x = document.getElementById("alert-error");
                     x.classList.add("show");
