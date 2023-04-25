@@ -1,14 +1,13 @@
-# .github/workflows/release-please.yml
-name: release-please
 on:
   push:
     branches:
       - main
+name: release-please
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          release-type: node # Multiple release types are supported
-          default-branch: main
+          release-type: node
+          package-name: release-please-action
