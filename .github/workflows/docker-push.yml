@@ -10,11 +10,12 @@
 name: Publish Docker image
 
 on:
-  release:
-    types: [created]
+  pull_request:
+    types: [ labeled ]
 
 jobs:
   push_to_registries:
+    if: ${{ github.event.label.name == 'autorelease: tagged' }}
     name: Push Docker image to multiple registries
     runs-on: ubuntu-latest
     permissions:
