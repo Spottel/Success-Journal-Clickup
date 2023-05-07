@@ -15,7 +15,6 @@ on:
 
 jobs:
   push_to_registries:
-    if: contains(toJson(github.event.pull_request.labels.*.name), 'tagged')
     name: Push Docker image to multiple registries
     runs-on: ubuntu-latest
     permissions:
