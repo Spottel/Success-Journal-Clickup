@@ -15,8 +15,8 @@ on:
 
 jobs:
   push_to_registries:
-    if: contains(github.event.pull_request.labels.*.name, 'autorelease: tagged')
     name: Push Docker image to multiple registries
+    if: contains(github.event.pull_request.labels.*.name, 'autorelease: tagged')
     runs-on: ubuntu-latest
     permissions:
       packages: write
