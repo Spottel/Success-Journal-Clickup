@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.1.1...v1.2.0) (2023-05-07)
+
+
+### Features
+
+* :sparkles: Push docker image automatically ([e5a6a31](https://github.com/Spottel/Success-Journal-Clickup/commit/e5a6a312c3aa1e9d83ccd87b88f7c4b235266db3))
+* :sparkles: Test ([0178327](https://github.com/Spottel/Success-Journal-Clickup/commit/0178327783ac609c5f1d2ec1d5cf36c900352147))
+
 ## [1.1.1](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.1.0...v1.1.1) (2023-04-25)
 
 
