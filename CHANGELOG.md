@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.6.0...v1.7.0) (2023-05-08)
+
+
+### Features
+
+* :sparkles: Test ([2deb5a9](https://github.com/Spottel/Success-Journal-Clickup/commit/2deb5a9f99b51152dd1a4501e93e0f7c9921fbfb))
+
 ## [1.6.0](https://github.com/Spottel/Success-Journal-Clickup/compare/v1.5.0...v1.6.0) (2023-05-07)
 
 
